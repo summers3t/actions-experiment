@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Show directory after checkout
         run: ls -l
-      - name: Run a multi-line script - show envirement variables
+      - name: Run a multi-line script
         run: |
           echo: "Hello $MY_ENV"
           echo: "Hello $GITHUB_ACTOR"
