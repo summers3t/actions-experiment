@@ -35,7 +35,7 @@ describe("<Home />", (): void => {
 
     renderWithProviders({ component: <Home />, inMemoryApi: inMemoryAPI });
 
-    await screen.findByLabelText("Add Octocat 1 to your collection NOT!!!");
+    await screen.findByLabelText("Add Octocat 1 to your collection");
   });
 
   it("redirects user to login page if Octocat is added while logged out.", async (): Promise<void> => {
