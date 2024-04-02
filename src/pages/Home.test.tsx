@@ -9,6 +9,7 @@ import { cleanup, screen } from "@testing-library/react";
 import { describe, it, expect, afterEach } from "vitest";
 import { Route, Routes } from "react-router-dom";
 
+
 describe("<Home />", (): void => {
   afterEach((): void => {
     cleanup();
