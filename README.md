@@ -1,4 +1,5 @@
 # GitHub Actions Workshop by GitHub
+#New line, added for viTest purposes.
 
 > *Lift-off with GitHub Actions - it's not rocket-science (unless you use it for rockets).* 🚀
 
