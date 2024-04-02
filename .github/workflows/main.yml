@@ -1,7 +1,11 @@
-name: Hello World Actions Workshow
+name: Actions Workshow Testing
 
 on:
-  workflow_dispatch
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   experimental-great:
